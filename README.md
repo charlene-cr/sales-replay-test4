@@ -1,6 +1,6 @@
-# Sales Replay Test 3
+# Sales Replay Test 4
 
-Sales Replay Test 3 is a small Node.js toolkit for replaying sales events,
+Sales Replay Test 4 is a small Node.js toolkit for replaying sales events,
 checking ledger-style invariants, and producing concise reconciliation reports.
 It is intentionally dependency-free so fixture repositories can run quickly in
 clean environments.

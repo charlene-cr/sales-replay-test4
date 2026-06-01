@@ -6,7 +6,7 @@ import process from "node:process";
 
 const args = parseArgs(process.argv.slice(2));
 const owner = args.owner ?? "charlene-cr";
-const repo = args.repo ?? "sales-replay-test3";
+const repo = args.repo ?? "sales-replay-test4";
 const visibility = args.visibility ?? "private";
 const dryRun = Boolean(args["dry-run"]);
 const repository = `${owner}/${repo}`;
@@ -262,7 +262,7 @@ function addPackageHealthCheck() {
   writeLines("src/health.mjs", [
     "export function packageHealth() {",
     "  return {",
-    "    name: \"sales-replay-test3\",",
+    "    name: \"sales-replay-test4\",",
     "    status: \"ok\",",
     "    checkedAt: new Date().toISOString(),",
     "  };",
